@@ -12,7 +12,7 @@ const AppHeader = () => (
                 <h2>Hello, I'm Lance!</h2> 
                 <Image style={{marginTop: '-1.5%'}} src={profileImage} size='small' centered circular />
                 <h3 style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona who is looking for my first web developer job after making a career switch.</h3>
-                <h5 style={{marginTop: '-1%', marginBottom: '-2%'}} >I enjoy Sports, playing music, writing, playing games, chasing around my cats, and of course, coding!</h5>
+                <h5 style={{marginTop: '-1%', marginBottom: '-2%'}} >I enjoy sports, playing music, writing, playing games, chasing around my cats, and of course, coding!</h5>
           </Grid.Column>
         </Grid.Row>
         </Segment>
