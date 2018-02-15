@@ -34,7 +34,14 @@ const AppHeader = () => (
             <Segment className='Display' style={{ background: '#D6E3E8B3', marginLeft: '10%'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
-                <Page />
+                <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
+                    <div><br />My first full stack app, created with React, MongoDB,
+                    <br />Redux, and socket IO for chat. It is a page
+                    <br />that allows my friends in others cities and I
+                    <br />to play a D&D style game I created. 
+                    <br />
+                    <br />to login, use: name: 'gm' password: 'me123'</div>
+                }/>
                 </Grid.Column>
             </Segment>
         </Grid.Row>
