@@ -42,6 +42,7 @@ const AppHeader = () => (
                     <br />
                     <br />to login, use: name: 'gm' password: 'me123'</div>
                 }/>
+                <Page html="https://ricayustudios.herokuapp.com/" title="Photo Studio" text="A site design for a photographers business"/>
                 </Grid.Column>
             </Segment>
         </Grid.Row>
