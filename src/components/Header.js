@@ -18,8 +18,8 @@ const AppHeader = () => (
         </Grid.Row>
         </Segment>
         <Grid.Row centered columns={2} className='Display'>
-            <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
-                <Grid.Column style={{marginBottom: '-4%'}}>
+            <div><Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
+                <Grid.Column>
                 <Segment color='orange'>
                 <h3>Areas of knowledge</h3>
                 <ul>
@@ -30,8 +30,8 @@ const AppHeader = () => (
                 </ul>
                 </Segment>
                 </Grid.Column>
-            </Segment>
-            <Segment className='Display' style={{ background: '#D6E3E8B3', marginLeft: '10%'}} stacked>
+            </Segment></div>
+            <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
                 <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
