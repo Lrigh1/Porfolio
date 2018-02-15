@@ -34,6 +34,7 @@ const AppHeader = () => (
             <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
+                <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text="A site design for a photographer's business"/>
                 <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
                     <div><br />My first full stack app, created with React, MongoDB,
                     <br />Redux, and socket IO for chat. It is a page
@@ -42,7 +43,6 @@ const AppHeader = () => (
                     <br />
                     <br />to login, use: name: 'gm' password: 'me123'</div>
                 }/>
-                <Page html="https://ricayustudios.herokuapp.com/" title="Photo Studio" text="A site design for a photographers business"/>
                 </Grid.Column>
             </Segment>
         </Grid.Row>
