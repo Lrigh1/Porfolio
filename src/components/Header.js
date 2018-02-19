@@ -10,31 +10,20 @@ const AppHeader = () => (
         <Segment style={{marginTop: '2%', background: '#D6E3E8B3'}} padded>
           <Grid.Row centered >
             <Grid.Column textAlign='center'>
-                <h2>Hello, I'm Lance!</h2> 
+                <h2 className='Text'>Hello, I'm Lance!</h2> 
                 <Image style={{marginTop: '-1.5%'}} src={profileImage} size='small' centered circular />
-                <h3 style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona who is looking for my first web developer job after making a career switch.</h3>
-                <h5 style={{marginTop: '-1%', marginBottom: '-2%'}} >I enjoy sports, playing music, writing, playing games, chasing around my cats, and of course, coding!</h5>
+                <h3 className='Text' style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona who is looking for my first web developer job after making a career switch.</h3>
+                <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, playing games, chasing around my cats, and of course, coding!</h4>
+                <h4  style={{marginTop: '-1%', marginBottom: '-2%'}}>These websits are made using Reactv16, Redux, Node, Socket IO, Semantic UI, MongoDB, Mongoose, Express, and incorporate es6 & es7 syntax.</h4>
           </Grid.Column>
         </Grid.Row>
         </Segment>
-        <Grid.Row centered columns={2} className='Display'>
-            <div><Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
-                <Grid.Column>
-                <Segment color='orange'>
-                <h3>Areas of knowledge</h3>
-                <ul>
-                    <li>HTML &emsp; Node.JS &emsp; Github</li>
-                    <li>&emsp;&nbsp;CSS &emsp; MongoDB &emsp; Meteor.JS</li>
-                    <li>&emsp;&nbsp;Semantic UI &emsp; React &emsp; Redux</li>
-                    <li>&emsp;&emsp;&emsp;&emsp;JavaScript &emsp; Socket.IO &emsp; Mongoose</li>
-                </ul>
-                </Segment>
-                </Grid.Column>
-            </Segment></div>
+        <Grid.Row centered columns={3} className='Display'>
+            
             <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
-                <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text="A site design for a photographer's business"/>
+                <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />"A site design for a photographer's business"</div>}/>
                 <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
                     <div><br />My first full stack app, created with React, MongoDB,
                     <br />Redux, and socket IO for chat. It is a page
@@ -42,6 +31,10 @@ const AppHeader = () => (
                     <br />to play a D&D style game I created. 
                     <br />
                     <br />to login, use: name: 'gm' password: 'me123'</div>
+                }/>
+                <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
+                    <div><br />A weather app that displays nice, changing backgrounds,
+                    <br />and a rain animation based off of the current weather</div>
                 }/>
                 </Grid.Column>
             </Segment>

@@ -4,9 +4,13 @@
   width: 100%; */
 
   font-size: 62.5%;
-  height: 140vh;
+  height: 135vh;
 }
 
 .Display{
   display: inline-block;
+}
+
+.Text{
+  font-family: 'Nanum Myeongjo', serif;
 }
