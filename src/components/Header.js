@@ -14,7 +14,7 @@ const AppHeader = () => (
                 <Image style={{marginTop: '-1.5%'}} src={profileImage} size='small' centered circular />
                 <h3 className='Text' style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona who is looking for my first web developer job after making a career switch.</h3>
                 <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, playing games, chasing around my cats, and of course, coding!</h4>
-                <h4  style={{marginTop: '-1%', marginBottom: '-2%'}}>These websits are made using Reactv16, Redux, Node, Socket IO, Semantic UI, MongoDB, Mongoose, Express, and incorporate es6 & es7 syntax.</h4>
+                <h4  style={{marginTop: '-1%', marginBottom: '-2%'}}>These websites are made using Reactv16, Redux, Node, Socket IO, Semantic UI, MongoDB, Mongoose, Express, and incorporate es6 & es7 syntax.</h4>
           </Grid.Column>
         </Grid.Row>
         </Segment>
