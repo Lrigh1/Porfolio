@@ -28,8 +28,8 @@ const AppHeader = () => (
                 <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
                     <div><br />A weather app that displays nice, changing backgrounds,
                     <br />and a rain animation based off of the current weather.
-                    <p >This site uses apixu, if location or their servers are down,
-                    <br />services may temporarily not work.</p>
+                    <p />This site uses apixu, if location or their servers are down,
+                    <br />services may temporarily not work.</div>
                 }/>
 
                 <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
