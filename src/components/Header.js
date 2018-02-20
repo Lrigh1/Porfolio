@@ -24,12 +24,12 @@ const AppHeader = () => (
                 <Grid.Column>
                 <h3>Websites:</h3>
                 <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />"A site design for a photographer's business"</div>}/>
-                
+
                 <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
                     <div><br />A weather app that displays nice, changing backgrounds,
                     <br />and a rain animation based off of the current weather.
-                    <br />This site uses apixu, if location or their servers are down,
-                    <br />services may not temporarily work.</div>
+                    <p >This site uses apixu, if location or their servers are down,
+                    <br />services may temporarily not work.</p>
                 }/>
 
                 <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
