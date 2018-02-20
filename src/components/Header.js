@@ -24,6 +24,14 @@ const AppHeader = () => (
                 <Grid.Column>
                 <h3>Websites:</h3>
                 <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />"A site design for a photographer's business"</div>}/>
+                
+                <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
+                    <div><br />A weather app that displays nice, changing backgrounds,
+                    <br />and a rain animation based off of the current weather.
+                    <br />This site uses apixu, if location or their servers are down,
+                    <br />services may not temporarily work.</div>
+                }/>
+
                 <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
                     <div><br />My first full stack app, created with React, MongoDB,
                     <br />Redux, and socket IO for chat. It is a page
@@ -31,10 +39,6 @@ const AppHeader = () => (
                     <br />to play a D&D style game I created. 
                     <br />
                     <br />to login, use: name: 'gm' password: 'me123'</div>
-                }/>
-                <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
-                    <div><br />A weather app that displays nice, changing backgrounds,
-                    <br />and a rain animation based off of the current weather</div>
                 }/>
                 </Grid.Column>
             </Segment>
