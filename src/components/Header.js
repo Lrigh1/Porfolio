@@ -24,7 +24,9 @@ const AppHeader = () => (
             <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
-                <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />"A website designed for a photographer's business"</div>}/>
+                <Page html="https://crystalclear.herokuapp.com/" title="Crystal Clear Pool Service" text={<div><br />A pool business website. <br />Clicking links will auto scroll you.</div>}/>
+
+                <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />A website designed for a photographer's business</div>}/>
 
                 <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
                     <div><br />A weather app that displays nice, changing backgrounds,
