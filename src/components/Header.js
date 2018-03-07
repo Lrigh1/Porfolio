@@ -13,7 +13,7 @@ const AppHeader = () => (
                 <h2 className='Text'>Hello, I'm Lance!</h2> 
                 <Image style={{marginTop: '-1.5%'}} src={profileImage} size='small' centered circular />
                 <h3 className='Text' style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona who is looking for my first web developer job after making a career switch.</h3>
-                <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, playing games, chasing around my cats, and of course, coding! I love being laid back, <br/>but my wife says she sometimes finds me similar to 'Chip Gaines' from an HGTV show called Fixer Upper.</h4>
+                <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, tennis, trying to ride my motorcyle, playing games (Super Smash and Mario Kart!) chasing around my cats, and of course, coding! I love being laid back, but my wife says she sometimes finds me similar to 'Chip Gaines' from an HGTV show called Fixer Upper.</h4>
                 
                 <h4  style={{marginTop: '-1%', marginBottom: '-2%'}}>These websites are made using Reactv16, Redux, Node, Socket IO, Semantic UI, MongoDB, Mongoose, Express, and incorporate es6 & es7 syntax.</h4>
           </Grid.Column>
