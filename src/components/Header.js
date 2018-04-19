@@ -12,8 +12,8 @@ const AppHeader = () => (
             <Grid.Column textAlign='center'>
                 <h2 className='Text'>Hello, I'm Lance!</h2> 
                 <Image style={{marginTop: '-1.5%'}} src={profileImage} size='small' centered circular />
-                <h3 className='Text' style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona who is looking for my first web developer job after making a career switch.</h3>
-                <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, tennis, trying to ride my motorcyle, playing games (Super Smash and Mario Kart!) chasing around my cats, and of course, coding!<br /> I love being laid back, but my wife says she sometimes finds me similar to 'Chip Gaines' from an HGTV show called Fixer Upper.</h4>
+                <h3 className='Text' style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona</h3>
+                <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, tennis, trying to ride my motorcyle, playing games (Super Smash and Mario Kart!) chasing around my cats, and of course, coding!<br /></h4>
                 
                 <h4  style={{marginTop: '-1%', marginBottom: '-2%'}}>These websites are made using Reactv16, Redux, Node, Socket IO, Semantic UI, MongoDB, Mongoose, Express, and incorporate es6 & es7 syntax.</h4>
           </Grid.Column>
@@ -24,6 +24,7 @@ const AppHeader = () => (
             <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
+                <h5 style={{marginTop: '-1.5%'}}>(hosted on heroku, please allow the load)</h5>
                 <Page html="https://crystalclear.herokuapp.com/" title="Crystal Clear Pool Service" text={<div><br />A pool business website. <br />Clicking links will auto scroll you down!</div>}/>
 
                 <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />A website designed for a photographer's business</div>}/>
