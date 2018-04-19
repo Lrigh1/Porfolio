@@ -24,8 +24,8 @@ const AppHeader = () => (
             <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
-                <h5 style={{marginTop: '-1.5%'}}>(hosted on heroku, please allow the load)</h5>
-                <Page html="https://crystalclear.herokuapp.com/" title="Crystal Clear Pool Service" text={<div><br />A pool business website. <br />Clicking links will auto scroll you down!</div>}/>
+                <h5 style={{marginTop: '-3%'}}>(hosted on heroku, please allow their load)</h5>
+                <Page html="https://crystalclear.herokuapp.com/" title="Crystal Clear Pool Service" text={<div><br />A pool business website. <br />Clicking links will auto scroll you down.</div>}/>
 
                 <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />A website designed for a photographer's business</div>}/>
 
