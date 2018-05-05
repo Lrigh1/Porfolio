@@ -12,7 +12,7 @@ const AppHeader = () => (
             <Grid.Column textAlign='center'>
                 <h2 className='Text'>Hello, I'm Lance!</h2> 
                 <Image style={{marginTop: '-1.5%'}} src={profileImage} size='small' centered circular />
-                <h3 className='Text' style={{marginTop: '0%'}}>A Jr. Developer from the great state of Arizona</h3>
+                <h3 className='Text' style={{marginTop: '0%'}}>A Developer from the great state of Arizona</h3>
                 <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, tennis, trying to ride my motorcyle, playing games (Super Smash and Mario Kart!) chasing around my cats, and of course, coding!<br /></h4>  
                 <h4  style={{marginTop: '-1%', marginBottom: '-2%'}}>These websites are made using Reactv16, Redux, Node, Socket IO, Semantic UI, MongoDB, Mongoose, Express, and they incorporate es6 & es7 syntax.</h4>
           </Grid.Column>
