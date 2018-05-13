@@ -10,7 +10,7 @@ const AppHeader = () => (
         <Segment style={{marginTop: '2%', background: '#D6E3E8B3'}} padded>
           <Grid.Row centered >
             <Grid.Column textAlign='center'>
-                <h2 className='Text'>Hello, I'm Lance!</h2> 
+                <h2 className='Text' style={{marginTop: '-1.5%'}}>Hello, I'm Lance!</h2> 
                 <Image style={{marginTop: '-1.5%'}} src={profileImage} size='small' centered circular />
                 <h3 className='Text' style={{marginTop: '0%'}}>A developer from the great state of Arizona</h3>
                 <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, tennis, trying to ride my motorcyle, playing games (Super Smash and Mario Kart!) chasing around my cats, and of course, coding!<br /></h4>  
@@ -19,7 +19,6 @@ const AppHeader = () => (
         </Grid.Row>
         </Segment>
         <Grid.Row centered columns={3} className='Display'>
-            
             <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
