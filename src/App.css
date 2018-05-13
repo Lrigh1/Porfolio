@@ -1,14 +1,20 @@
 .App {
+  display: flex;
   /* text-align: center; */
   /* height: 100%;
   width: 100%; */
 
   font-size: 62.5%;
-  height: 57vh;
+  height: 270px;
 }
 
 .Display{
   display: inline-block;
+}
+
+.Display-Back{
+  background-color: blue;
+  width: 500px;
 }
 
 .Text{
