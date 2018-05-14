@@ -2,14 +2,16 @@
   display: flex;
 }
 
-.Display{
+.Content{
   display: flex;
+  /* background: linear-gradient(to bottom right,#E4844F75, #00B5AD75); */
+  width: 100% !important;
   justify-content: center;
 }
 
-.Display-Back{
-  background-color: beige;
-  width: 500px;
+.Display{
+  display: flex;
+  justify-content: center;
 }
 
 .Header{
@@ -28,6 +30,7 @@
   width: 40% !important;
   margin-top: 0 !important;
   margin-right: 2% !important;
+  height: 95%;
 }
 
 .Right-Body{
@@ -37,6 +40,7 @@
   width: 40% !important;
   margin-top: 0 !important;
   margin-left: 2% !important;
+  height: 96%;
 }
 
 .Text{

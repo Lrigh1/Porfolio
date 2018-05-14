@@ -15,12 +15,13 @@ const AppHeader = () => (
                 <h3 className='Text' style={{marginTop: '0%'}}>A developer from the great state of Arizona</h3>
                 <h4 className='Text' style={{marginTop: '-1%'}} >I enjoy sports, playing music, writing, tennis, trying to ride my motorcyle, playing games (Super Smash and Mario Kart!) chasing around my cats, and of course, coding!<br /></h4>  
                 <h4  style={{marginTop: '-1%', marginBottom: '-1%'}}>These websites are made using Reactv16, Redux, Node, Socket IO, Semantic UI, MongoDB, Mongoose, Express, and they incorporate es6 & es7 syntax.</h4>
-          </Grid.Column>
-        </Grid.Row>
+            </Grid.Column>
+          </Grid.Row>
         </Segment>
+        <div className="Content">
         <Segment className='Left-Body'>
         <Grid.Row centered columns={3} className='Display'>
-            <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
+            <Segment className='Display' style={{ background: 'beige'}} stacked>
                 <Grid.Column>
                 <h3>Websites:</h3>
                 <h5 style={{marginTop: '-4%'}}>(hosted on heroku, please allow their load)</h5>
@@ -33,7 +34,7 @@ const AppHeader = () => (
         </Segment>
         <Segment className='Right-Body'>
         <Grid.Row centered columns={3} className='Display'>
-            <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
+            <Segment className='Display' style={{ background: 'beige'}} stacked>
                 <Grid.Column>
                 <h5 style={{marginTop: '-4%'}}></h5>
 
@@ -56,6 +57,7 @@ const AppHeader = () => (
             </Segment>
         </Grid.Row>
         </Segment>
+        </div>
     </Grid>
   </Header>
 )
