@@ -1,19 +1,25 @@
 .App {
   display: flex;
-  /* text-align: center; */
-  /* height: 100%;
-  width: 100%; */
   font-size: 62.5%;
   height: 270px;
+  margin-top: 1%;  
 }
 
 .Display{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .Display-Back{
   background-color: beige;
   width: 500px;
+}
+
+.Header{
+  display: flex;
+  margin-top: 2% !important;
+  background: #D6E3E8B3 !important;
+  width: 90%;
 }
 
 .Text{

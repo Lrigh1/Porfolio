@@ -7,7 +7,7 @@ import Page from './Page';
 const AppHeader = () => (
   <Header>
     <Grid centered columns={2}>
-        <Segment style={{marginTop: '2%', background: '#D6E3E8B3'}} padded>
+        <Segment className='Header' padded>
           <Grid.Row centered >
             <Grid.Column textAlign='center'>
                 <h2 className='Text' style={{marginTop: '-1.5%'}}>Hello, I'm Lance!</h2> 
