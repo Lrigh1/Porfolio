@@ -22,6 +22,14 @@
   width: 90%;
 }
 
+.Left-Body{
+  display: flex;
+  justify-content: center;
+  background: #E4844F75 !important;
+  width: 40% !important;
+  margin-top: 0 !important;
+}
+
 .Text{
   font-family: 'Nanum Myeongjo', serif;
 }
