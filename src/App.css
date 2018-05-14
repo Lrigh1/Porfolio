@@ -3,7 +3,6 @@
   /* text-align: center; */
   /* height: 100%;
   width: 100%; */
-
   font-size: 62.5%;
   height: 270px;
 }
@@ -13,7 +12,7 @@
 }
 
 .Display-Back{
-  background-color: blue;
+  background-color: beige;
   width: 500px;
 }
 

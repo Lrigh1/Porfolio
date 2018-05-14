@@ -18,7 +18,7 @@ const AppHeader = () => (
           </Grid.Column>
         </Grid.Row>
         </Segment>
-        <Segment color="teal" style={{ width: '50%', marginTop: '0'}}>
+        <Segment style={{ background: '#E4844FB3', width: '50%', marginTop: '0'}}>
         <Grid.Row centered columns={3} className='Display'>
             <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
                 <Grid.Column>
