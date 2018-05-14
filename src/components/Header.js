@@ -27,13 +27,15 @@ const AppHeader = () => (
                 <Page html="https://crystalclear.herokuapp.com/" title="Crystal Clear Pool Service" text={<div><br />A pool business website. <br />Clicking links will auto scroll you down.</div>}/>
 
                 <Page html="https://ricayustudios.herokuapp.com/" title="Ricayu's Photo Studio" text={<div><br />A website designed for a photographer's business</div>}/>
-
-                <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
-                    <div><br />A weather app that displays nice, changing backgrounds,
-                    <br />and a rain animation based off of the current weather.
-                    <p />This site uses apixu, if location or their servers are down,
-                    <br />services may temporarily not work.</div>
-                }/>
+                </Grid.Column>
+            </Segment>
+        </Grid.Row>
+        </Segment>
+        <Segment className='Right-Body'>
+        <Grid.Row centered columns={3} className='Display'>
+            <Segment className='Display' style={{ background: '#D6E3E8B3'}} stacked>
+                <Grid.Column>
+                <h5 style={{marginTop: '-4%'}}></h5>
 
                 <Page html="https://mcmtac.herokuapp.com/" title="MCMTAC" text={
                     <div><br />My first full stack app, created with React, MongoDB,
@@ -42,6 +44,13 @@ const AppHeader = () => (
                     <br />to play a D&D style game I created. 
                     <br />
                     <br />to login, use: name: 'gm' password: 'me123'</div>
+                }/>
+
+                <Page html="https://lwweather.herokuapp.com" title="Changing CSS Weather App" text={
+                    <div><br />A weather app that displays nice, changing backgrounds,
+                    <br />and a rain animation based off of the current weather.
+                    <p />This site uses apixu, if location or their servers are down,
+                    <br />services may temporarily not work.</div>
                 }/>
                 </Grid.Column>
             </Segment>

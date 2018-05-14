@@ -26,8 +26,20 @@
   display: flex;
   justify-content: center;
   background: #E4844F75 !important;
+  /* background: #00B5AD75 !important; */
   width: 40% !important;
   margin-top: 0 !important;
+  margin-right: 2% !important;
+}
+
+.Right-Body{
+  display: flex;
+  justify-content: center;
+  background: #E4844F75 !important;
+  /* background: #00B5AD75 !important; */
+  width: 40% !important;
+  margin-top: 0 !important;
+  margin-left: 2% !important;
 }
 
 .Text{
